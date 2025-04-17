@@ -33,3 +33,13 @@ The system is trained on grayscale facial images and is capable of recognizing c
 - **Marketing:** Gauge customer reactions to content and products.
 - **Security:** Monitor suspicious behavior in surveillance systems.
 - **Robotics:** Enable emotional intelligence in robots.
+
+---
+
+## 🛠️ Result
+We can use Opencv library to capture the image in a real-time and predict the expression. After running the final piece of code i.e., webcam_test, we will get the below result:
+
+
+https://github.com/user-attachments/assets/63654367-304d-4905-913e-0f9b15b950cc
+
+
