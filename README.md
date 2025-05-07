@@ -17,7 +17,7 @@ The system is trained to detect the following seven facial expressions:
 
 ---
 
-## Dataset
+## 🧪 Dataset
 
 Dataset Used: FER-2013 Dataset ([Kaggle](https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer/))
 
