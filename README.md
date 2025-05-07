@@ -2,9 +2,11 @@
 
 The goal of this project is to develop a deep learning-based **Facial Expression Recognition (FER)** system that detects and classifies facial emotions in **real-time** using a **Convolutional Neural Network (CNN)**.
 
-
 ---
-The system is trained on grayscale facial images and is capable of recognizing common human emotions such as:
+
+## 😀 Recognized Emotions
+
+The system is trained to detect the following seven facial expressions:
 - 😃 Happy
 - 😢 Sad
 - 😠 Angry
@@ -25,7 +27,17 @@ The system is trained on grayscale facial images and is capable of recognizing c
 
 ---
 
-## 🛠️ Applications
+## 📊 Performance
+
+Achieved Accuracy: ~60% using a custom CNN model trained from scratch
+
+Benchmark Accuracy: ~79.79% using pretrained models (see [FER2013 benchmark on PapersWithCode](https://paperswithcode.com/sota/facial-expression-recognition-on-fer2013))
+
+⚠️ Note: This project intentionally avoids using transfer learning or pretrained models to demonstrate the potential of a raw CNN built and trained from scratch.
+
+---
+
+## 💡 Applications
 
 - **Human-Computer Interaction (HCI):** Enhance user experience based on detected emotions.
 - **Healthcare Monitoring:** Detect mental health signals (e.g., stress, depression).
