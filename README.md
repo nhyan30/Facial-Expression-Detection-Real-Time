@@ -2,9 +2,8 @@
 
 The goal of this project is to develop a deep learning-based **Facial Expression Recognition (FER)** system that detects and classifies facial emotions in **real-time** using a **Convolutional Neural Network (CNN)**.
 
----
 
-## 😀 Recognized Emotions
+---
 
 The system is trained to detect the following seven facial expressions:
 - 😃 Happy
@@ -15,17 +14,17 @@ The system is trained to detect the following seven facial expressions:
 - 😨 Fear
 - 😖 Disgust
 
----
-
-## 🧠 Model Architecture
-
-- Input: Grayscale images (48x48)
-- CNN layers with ReLU and MaxPooling
-- Dropout for regularization
-- Fully Connected (Dense) layers
-- Softmax output for classification
 
 ---
+
+## Dataset
+
+Dataset Used: FER-2013 Dataset ([Kaggle](https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer/))
+
+The dataset consists of 48x48 pixel grayscale images of faces labeled with one of the 7 emotion categories.
+
+---
+
 
 ## 📊 Performance
 
@@ -35,7 +34,9 @@ Benchmark Accuracy: ~79.79% using pretrained models (see [FER2013 benchmark on P
 
 ⚠️ Note: This project intentionally avoids using transfer learning or pretrained models to demonstrate the potential of a raw CNN built and trained from scratch.
 
+
 ---
+
 
 ## 💡 Applications
 
@@ -45,6 +46,7 @@ Benchmark Accuracy: ~79.79% using pretrained models (see [FER2013 benchmark on P
 - **Marketing:** Gauge customer reactions to content and products.
 - **Security:** Monitor suspicious behavior in surveillance systems.
 - **Robotics:** Enable emotional intelligence in robots.
+
 
 ---
 
